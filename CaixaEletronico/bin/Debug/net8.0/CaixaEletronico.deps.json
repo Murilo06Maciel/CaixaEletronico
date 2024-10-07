@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Caixa/1.0.0": {
+      "CaixaEletronico/1.0.0": {
         "runtime": {
-          "Caixa.dll": {}
+          "CaixaEletronico.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Caixa/1.0.0": {
+    "CaixaEletronico/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

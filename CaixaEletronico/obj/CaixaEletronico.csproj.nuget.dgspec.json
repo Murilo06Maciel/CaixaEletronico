@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\Caixa\\Caixa.csproj": {}
+    "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\CaixaEletronico\\CaixaEletronico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\Caixa\\Caixa.csproj": {
+    "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\CaixaEletronico\\CaixaEletronico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\Caixa\\Caixa.csproj",
-        "projectName": "Caixa",
-        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\Caixa\\Caixa.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\CaixaEletronico\\CaixaEletronico.csproj",
+        "projectName": "CaixaEletronico",
+        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\CaixaEletronico\\CaixaEletronico.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\Caixa\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\murilo\\CaixaEletronico\\CaixaEletronico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
