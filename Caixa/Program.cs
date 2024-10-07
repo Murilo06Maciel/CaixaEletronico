@@ -105,10 +105,12 @@ class Program
                         break;
 
                     case "6":
+                        Console.Clear();
                         Console.WriteLine("Saindo...");
                         return;
 
                     default:
+                        Console.Clear();
                         Console.WriteLine("Opção inválida. Tente novamente.");
                         break;
                 }
