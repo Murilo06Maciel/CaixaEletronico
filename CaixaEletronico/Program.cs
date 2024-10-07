@@ -8,6 +8,7 @@ public class Program
         int opcao;
         double saldoInicial = 0, DinheiroNaConta = 0, transferencia;
         List<string> extrato = new List<string>();
+        returngeral:
         do
         {
             Console.WriteLine("\n--- Caixa Eletrônico ---");
@@ -18,13 +19,11 @@ public class Program
             Console.WriteLine("5: Transferir");
             Console.WriteLine("6: Sair");
             Console.Write("Escolha uma opção: ");
-            
-            if (!int.TryParse(Console.ReadLine(), out opcao) || opcao < 1 || opcao > 6)
+            if (!int.TryParse(Console.ReadLine(), out opcao))
             {
                 Console.WriteLine("\nNúmero inválido! Tente novamente.");
-                continue;
             }
-        }while(opcao <= 7);
+        }while(opcao >= 7);
 
             switch (opcao)
             {
@@ -53,7 +52,7 @@ public class Program
                             Console.WriteLine($"Conta criada com sucesso! Saldo inicial: {saldoInicial:C}");
                         }
                     }
-                    break;
+                   goto returngeral;
                 
                 case 2:
                     Console.Clear();
@@ -68,7 +67,7 @@ public class Program
                     {
                         Console.WriteLine("Valor de depósito inválido!");
                     }
-                    break;
+                    goto returngeral;
                 
                 case 3:
                     Console.Clear();
@@ -83,7 +82,7 @@ public class Program
                     {
                         Console.WriteLine("Valor de saque inválido ou saldo insuficiente!");
                     }
-                    break;
+                    goto returngeral;
 
                 case 4:
                     Console.Clear();
@@ -99,7 +98,7 @@ public class Program
                             Console.WriteLine(item);
                         }
                     }
-                    break;
+                    goto returngeral;
 
                 case 5:
                     Console.Clear();
@@ -119,12 +118,12 @@ public class Program
                     {
                         Console.WriteLine("Transferência não realizada! Valor inválido ou saldo insuficiente.");
                     }
-                    break;
+                    goto returngeral;
 
                 case 6:
                     Console.Clear();
                     Console.WriteLine("Saindo...");
-                    return;
+                    goto returngeral;
 
                 default:
                     Console.WriteLine("Opção inválida!");
